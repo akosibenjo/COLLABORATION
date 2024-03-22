@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#home-bg{
+    background-image: url(images/love.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: contain;
+    
+}
+#logo{
+    float: right;
+    background-color: aqua;
+    height: 10px;
+}
+nav ul li{
+    float: left;
+    font: 30px'berlin';
+    margin-right: 20px;
+    color: aquamarine;
+}
+nav a{
+    color: aqua;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+section{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    width: 450px;
+    color: aqua;
+}
+
+section h3{
+    font: 40px'Amperzand';
+    margin-top: 10px;
+    
+}
+
+section{
+    font-family: 'BerlinSansFB';
+}
+
+footer{
+    position: absolute;
+    background: #000000;
+    text-align: center;
+    height: 35px;
+    color: aqua;
+    font: 30px 'Berlin';
+    z-index: 1;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width:500px){
+    body#home-bg
+    {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #000000;
+    border-radius: 25px;
+    transition:.4s ease-in-out;
+}
+
+.form:hover{
+    transition: scale(1.05);
+    border: 1px solid black;
+}
+
+    #heading{
+        text-align: center;
+        margin: 2em;
+        color: rgb(255, 255, 255);
+        font-size: 1.2em;
+    }
+    .field{
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        border-radius: 25px;
+        padding: 0.6em;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: bisque;
+        box-shadow: inset 2px 5px 10px rgb(5, 5 ,5);
+    }
+
+    .input-feild{
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: #000000;
+    }
+
+.form .btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+.button{
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: 4s ease-in-out;
+    background-color: #243b55;
+    color: white;
+}
+
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+
+.button2{
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 4s ease-in-out;
+    background-color: #243b55;
+    color: white;
+}
+
+.button2:hover{
+    background-color: black;
+    color: white;
+}
+
+.button3{
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    transition: 4s ease-in-out;
+    background-color: #243b55;
+    color: white;
+}
+
+.button3:hover{
+    background-color: black;
+    color: white;
+}
